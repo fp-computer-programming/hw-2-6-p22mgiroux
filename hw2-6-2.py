@@ -8,5 +8,5 @@ height = input("What is the height of your cylinder? ")
 volume = pi * int(rad) ** 2 * int(height)
 surf_area = 2 * pi * int(rad) * (int(height) + int(rad))
 
-print("Volume: {}".format(volume))
-print("Surface Area: {}".format(surf_area))
+print("Volume: " + str(volume))
+print("Surface Area: " + str(surf_area))
